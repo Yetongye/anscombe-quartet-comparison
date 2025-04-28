@@ -2,7 +2,7 @@
 
 # Anscombe Quartet regression analysis and performance comparison
 
----
+
 
 ## Project Overview
 
@@ -25,6 +25,11 @@ The objective is to validate whether Go's statistical packages can produce resul
 
 ## How to Build and Use the Application (Go)
 
+This repository already includes pre-built executables:
+
+- `anscombe_app.exe` for Windows
+- `anscombe_app` for macOS
+
 ### Build the Executable
 For Mac/Linux:
 ```bash
@@ -44,10 +49,7 @@ On Windows:
 ```bash
 anscombe_app.exe
 ```
-This repository already includes pre-built executables:
 
-- `anscombe_app.exe` for Windows
-- `anscombe_app` for macOS
 
 **Outputs:**
 - Prints regression results (slope, intercept, R-squared, Residual Std Error, F-statistic)

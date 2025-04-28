@@ -79,6 +79,12 @@ Tests include:
 
 ### 1. Regression Result Consistency
 Across all four datasets (Set I–IV), the R-squared values and F-statistics calculated using Go, Python, and R are highly consistent:
+![Anscombe Quartet Go Plot1](anscombe_go_set_1.png)
+![Anscombe Quartet Go Plot2](anscombe_go_set_2.png)
+![Anscombe Quartet Go Plot3](anscombe_go_set_3.png)
+![Anscombe Quartet Go Plot4](anscombe_go_set_4.png)
+![Anscombe Quartet Python](fig_anscombe_Python.png)
+![Anscombe Quartet R](fig_anscombe_R.png)
 
 
 | Set | Go (R² / F-statistic / RSE) | Python (R² / F-statistic) | R (R² / F-statistic / RSE) |
